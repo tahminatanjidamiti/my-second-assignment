@@ -10,9 +10,9 @@
     font-family: "Praise", cursive;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  
+}
+
+
 /* shared styles */
 .display-flex {
     display: flex;
@@ -33,14 +33,30 @@
     padding: 8px 20px;
     color: rgb(255, 255, 255);
 }
-.description-primary {
+
+.description {
     font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.primary-description {
+    font-size: .95rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
 
 .bg-primary {
     background-color: rgb(17, 17, 17);
+}
+.section-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.center-align{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Nav styles */
@@ -85,7 +101,7 @@ nav li a {
     max-width: 1200px;
     margin: 0 auto;
 }
-
+ /* banner styles */
 .banner {
     gap: 200px;
 }
@@ -95,10 +111,12 @@ nav li a {
     font-weight: 900;
     font-size: 5rem;
 }
+
 .banner-title-btn {
-    max-width: 530px;
-    max-height: 450px;
+    max-width: 500px;
+    max-height: 400px;
 }
+
 .banner-second-item {
     font-size: 18px;
     font-weight: 600px;
@@ -108,21 +126,24 @@ nav li a {
     color: rgb(255, 255, 255);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .btn-item {
-    text-decoration: none; 
-    margin-right: 15px; 
+    text-decoration: none;
+    margin-right: 15px;
 }
-.link-btn{
+
+.link-btn {
     list-style: none;
 }
 
-.ball{
+.ball {
     height: 40px;
     width: 40px;
     border-radius: 50%;
     background-color: rgb(230, 83, 60);
 }
-.rect{
+
+.rect {
     height: 90px;
     width: 200px;
     background: rgba(48, 48, 48, 0.54);
@@ -137,23 +158,27 @@ nav li a {
     margin-top: -130px;
 }
 
-#first-number{
+.first-number {
     font-size: 1.5rem;
     font-weight: 900;
 }
-#first-title{
+
+.first-title {
     font-size: 1rem;
     font-weight: 400;
 }
-#rect-number{
+
+.rect-number {
     font-size: 2.5rem;
     font-weight: 900;
 }
-#rect-title{
+
+.rect-title {
     font-size: .8rem;
     font-weight: 400;
 }
-.rect-two{
+
+.rect-two {
     height: 95px;
     width: 190px;
     background: rgba(48, 48, 48, 0.54);
@@ -162,10 +187,42 @@ nav li a {
     border: 1px solid 1px rgba(255, 255, 255, 0.1);
     text-align: center;
     position: absolute;
-    margin-left: 200px;
+    margin-left: 220px;
     margin-top: -450px;
+
+}
+.play{
+    display: none;
+}
+  /* main styles */
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.habits-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.habits-container{
+    align-items: center;
+    justify-content: space-between;
+}
+.habits-item{
+    border-radius: 50%;
+}
+.habits-items-container{
+    width: 220px;
+    height: 250px;
+    gap: 40px;
+    margin: 55px;
     
 }
+.habits-margin-top{
+    margin-top: 100px;
+}
+
 
 /* responsive media query */
 /* small device */
@@ -181,6 +238,63 @@ nav li a {
     .navbar {
         margin: 0 15px;
     }
+
+    .banner {
+        flex-direction: column;
+        margin: 0 15px;
+        gap: 20px;
+    }
+
+    .banner-title-btn {
+        max-width: 350px;
+        max-height: 330px;
+    }
+
+    .banner-title {
+        font-size: 1.25rem;
+    }
+
+    .banner-img {
+        margin-top: 20px;
+    }
+
+    .rect-two {
+        max-height: 70px;
+        max-width: 150px;
+        margin-top: -510px;
+    }
+
+    .rect-title {
+        font-size: .5rem;
+    }
+
+    .rect-number {
+        font-size: 2rem;
+    }
+    .responsive-ball{
+        color: rgb(255, 255, 255);
+        align-items: center;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .play{
+        display: block;
+    }
+    .rect{
+        height: 60px;
+        width: 150px;
+        margin-top: -200px;
+    }
+    .section-title{
+        font-size: 2rem;
+    }
+    .habits-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .habits-margin-top{
+        margin: 0 30px;
+    }
 }
 
 /* medium device */
@@ -188,4 +302,27 @@ nav li a {
     .navbar {
         margin: 0 15px;
     }
+    .banner{
+        flex-direction: column;
+        margin: 0 15px;
+        align-items: center;
+    }
+    .play{
+        display: none;
+    }
+    .habits-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .habits-items-container{
+        padding-top: 40px;
+        margin-left: 65px;
+    }
+    .habits-margin-top{
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+    
+    
 }
