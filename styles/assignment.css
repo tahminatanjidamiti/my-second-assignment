@@ -20,13 +20,13 @@
 
 .text-primary {
     color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 600px;
+    font-size: 1.15rem;
+    font-weight: 600;
 }
 
 .btn-primary {
-    font-size: 18px;
-    font-weight: 600px;
+    font-size: 1.15rem;
+    font-weight: 600;
     border: 1px solid rgb(230, 83, 60);
     background-color: rgb(230, 83, 60);
     border-radius: 45px;
@@ -39,6 +39,7 @@
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
+
 .primary-description {
     font-size: .95rem;
     font-weight: 400;
@@ -48,12 +49,14 @@
 .bg-primary {
     background-color: rgb(17, 17, 17);
 }
-.section-title{
+
+.section-title {
     font-size: 3rem;
     font-weight: 900;
     color: rgb(255, 255, 255);
 }
-.center-align{
+
+.center-align {
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -101,7 +104,8 @@ nav li a {
     max-width: 1200px;
     margin: 0 auto;
 }
- /* banner styles */
+
+/* banner styles */
 .banner {
     gap: 200px;
 }
@@ -191,37 +195,633 @@ nav li a {
     margin-top: -450px;
 
 }
-.play{
+
+.play {
     display: none;
 }
-  /* main styles */
-main{
+
+/* main styles */
+main {
     max-width: 1200px;
     margin: 0 auto;
+
 }
 
-.habits-title{
+.habits-title {
     font-size: 1.2rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
 }
-.habits-container{
+
+.habits-container {
     align-items: center;
     justify-content: space-between;
 }
-.habits-item{
+
+.habits-item {
     border-radius: 50%;
 }
-.habits-items-container{
+
+.habits-items-container {
     width: 220px;
     height: 250px;
     gap: 40px;
     margin: 55px;
-    
+
 }
-.habits-margin-top{
+
+.habits-margin-top {
     margin-top: 100px;
 }
+
+.run-btn {
+    text-decoration: none;
+    padding: 10px 40px;
+}
+
+.run-container {
+    margin-top: 100px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    gap: 140px;
+    width: 100%;
+
+}
+
+.run-item {
+    margin: 25px 35px;
+    width: 50%;
+}
+
+.run-img {
+    width: 100%;
+    object-fit: none;
+    object-position: 69% 30%;
+    border-radius: 18px;
+    border: 1px solid rgb(34, 34, 34);
+}
+
+.run-first {
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    height: 250px;
+}
+
+.row-first {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.train-container {
+    margin-top: 100px;
+}
+
+.train-text-left {
+    text-align: left;
+    width: 50%;
+}
+
+.train-first-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    z-index: 1;
+}
+
+.train-primary-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    z-index: 1;
+    width: 60%;
+}
+
+.train-first {
+    width: 25%;
+    background: rgba(6, 255, 210, 0.5) url('../images/exercise1.jpg');
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+
+}
+
+.train-first-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(6, 255, 210, 0.5);
+    opacity: .7;
+    position: absolute;
+}
+
+.train-second {
+    width: 48%;
+    background: rgba(255, 0, 0, 0.3) url('../images/exercise2.png');
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.train-second-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 0, 0, 0.3);
+    opacity: .7;
+    position: absolute;
+}
+
+.train-third {
+    width: 27%;
+    background: rgba(0, 0, 0, 0.5) url('../images/exercise3.png');
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.train-third-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: .7;
+    position: absolute;
+}
+
+.row-second {
+    width: 100%;
+}
+
+.train-fourth {
+    width: 42%;
+    background: rgba(0, 0, 0, 0.5) url('../images/exercise4.png');
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+.train-fourth-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: .7;
+    position: absolute;
+}
+
+.train-fifth {
+    width: 26%;
+    background: rgba(66, 255, 0, 0.3) url('../images/exercise5.jpg');
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.train-fifth-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(66, 255, 0, 0.3);
+    opacity: .7;
+    position: absolute;
+}
+
+.train-sixth {
+    width: 32%;
+    background: rgba(0, 71, 255, 0.3) url('../images/exercise6.jpg');
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.train-sixth-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 71, 255, 0.3);
+    opacity: .7;
+    position: absolute;
+}
+
+.bmi-container {
+    margin-top: 90px;
+    max-width: 1200px;
+    margin-left: 0;
+}
+
+.bmi-title {
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.bmi-first {
+    width: 45%;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.bmi-second {
+    width: 55%;
+    padding-right: 80px;
+    padding-top: 25px;
+}
+
+.bmi-center-align {
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 250px;
+    width: 50%;
+}
+
+.bmi-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.bmi-small-text {
+    font-size: .95rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.item {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.bmi-chart-text {
+    text-align: left;
+    padding-left: 40px;
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: 160px 150px;
+    height: 220px;
+}
+
+.input-select-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.bmi-btn {
+    padding: 10px 45px;
+    margin-top: 10px;
+}
+
+#select-row-span {
+    grid-column: span 2;
+}
+
+.bmi-chart-calculate {
+    display: flex;
+    margin-top: 80px;
+}
+
+.bg-bmi {
+    background: rgb(34, 34, 34);
+    width: 100%;
+    height: 70vh;
+    margin-left: 0;
+}
+
+.form {
+    padding: 15px 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.team-title-one,
+.team-title-two,
+.team-title-three,
+.team-title-fourth,
+.team-title-fifth,
+.team-title-sixth {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding-left: 8px;
+    z-index: 1;
+    position: absolute;
+}
+
+.team-description-one,
+.team-description-two,
+.team-description-three,
+.team-description-fourth,
+.team-description-fifth,
+.team-description-sixth {
+    font-size: .95rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    z-index: 1;
+    padding-left: 8px;
+    position: absolute;
+}
+
+.team-row {
+    display: flex;
+    height: 280px;
+    gap: 15px;
+}
+
+.team-row-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 60px;
+    border-radius: 18px;
+    padding-top: 25px;
+}
+
+.team-row-first {
+    width: 100%;
+    margin-left: 25px;
+
+
+}
+
+.team-container {
+    margin-top: 90px;
+}
+
+
+.team-first {
+    width: 31%;
+    height: 91%;
+    background-image: url('../images/trainer1.png');
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    border-radius: 18px;
+
+}
+
+.team-second {
+    width: 31%;
+    height: 91%;
+    background-image: url('../images/trainer2.png');
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    border-radius: 18px;
+
+}
+
+.team-third {
+    width: 31%;
+    height: 91%;
+    background-image: url('../images/trainer3.png');
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    border-radius: 18px;
+
+}
+
+.team-row-second {
+    width: 100%;
+    margin-left: 25px;
+
+}
+
+.team-fourth {
+    width: 31%;
+    height: 91%;
+    background-image: url('../images/trainer4.png');
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    border-radius: 18px;
+
+}
+
+.team-fifth {
+    width: 31%;
+    height: 91%;
+    background-image: url('../images/trainer5.png');
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    border-radius: 18px;
+
+}
+
+.team-sixth {
+    width: 31%;
+    height: 91%;
+    background-image: url('../images/trainer6.png');
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    border-radius: 18px;
+
+}
+
+.dot-hide {
+    display: none;
+}
+
+.unique-container {
+    margin-top: 100px;
+}
+
+.unique-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.unique-description {
+    font-size: .95rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.unique-btn {
+    padding: 10px 45px;
+    margin-top: 20px;
+}
+
+.unique-flex-container {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    gap: 50px;
+    border-radius: 18px;
+    padding: 15px 12px 12px 20px;
+}
+
+.unique-first {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    gap: 25px;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.unique-second {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    padding: 25px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    gap: 25px;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.unique-first-item {
+    width: 40%;
+}
+
+.unique-second-item {
+    width: 40%;
+}
+
+.unique-third-item {
+    width: 40%;
+}
+
+.unique-fourth-item {
+    width: 40%;
+}
+
+.unique-img-item {
+    width: 40%;
+}
+
+.unique-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer-container {
+    margin-top: 90px;
+    padding: 30px 0 10px;
+}
+
+.bg-container {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.footer-first {
+    width: 40%;
+    padding-left: 50px;
+    padding-top: 0;
+}
+
+.footer-second {
+    width: 60%;
+}
+
+.footer-title {
+    font-weight: 800;
+    font-size: 4rem;
+    color: rgb(230, 83, 60);
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.footer-item {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+footer li a {
+    text-decoration: none;
+}
+
+.footer-small-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 35px;
+}
+
+.last-description {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.hr-style {
+    margin: 10px 100px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-first-flex {
+    display: flex;
+    gap: 80px;
+    padding-bottom: 50px;
+}
+
+.footer-second-flex {
+    display: flex;
+    gap: 160px;
+}
+
+.footer-text-primary {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-primary-description {
+    font-size: .95rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 50px;
+}
+
+
+
 
 
 /* responsive media query */
@@ -271,30 +871,271 @@ main{
     .rect-number {
         font-size: 2rem;
     }
-    .responsive-ball{
+
+    .responsive-ball {
         color: rgb(255, 255, 255);
         align-items: center;
         padding-left: 20px;
         padding-top: 20px;
     }
-    .play{
+
+    .play {
         display: block;
     }
-    .rect{
+
+    .rect {
         height: 60px;
         width: 150px;
         margin-top: -200px;
     }
-    .section-title{
+
+    .section-title {
         font-size: 2rem;
     }
-    .habits-container{
+
+    .habits-container {
         flex-direction: column;
         gap: 40px;
     }
-    .habits-margin-top{
+
+    .habits-margin-top {
         margin: 0 30px;
     }
+
+    .run-container {
+        flex-direction: column;
+        margin: 60px 15px 0;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 15px 20px 15px;
+        gap: 20px;
+        width: 85%;
+    }
+
+    .run-item {
+        width: 90%;
+    }
+
+    .run-img {
+        object-fit: cover;
+    }
+
+    .run-btn {
+        width: 290px;
+        padding: 15px 45px;
+    }
+
+    .train-hide {
+        display: none;
+    }
+
+    .train-text-left {
+        width: 95%;
+    }
+
+    .train-first {
+        width: 50%;
+    }
+
+    .train-second {
+        width: 50%;
+    }
+
+    .train-fourth {
+        width: 45%;
+    }
+
+    .train-fifth {
+        width: 55%;
+    }
+
+    .row-first,
+    .row-second {
+        height: 140px;
+    }
+
+    .train-first,
+    .train-second,
+    .train-fourth,
+    .train-fifth {
+        height: 100%;
+    }
+
+    .train-first-text {
+        font-size: .7rem;
+        padding-left: 8px;
+        padding-bottom: 8px;
+        width: 75%;
+    }
+
+    .train-primary-text {
+        font-size: .7rem;
+        padding-left: 8px;
+        padding-bottom: 8px;
+        width: 75%;
+    }
+
+    .train-fourth {
+        justify-content: start;
+        align-items: end;
+    }
+
+    .bmi-chart-calculate {
+        flex-direction: column;
+    }
+
+    .bmi-first {
+        width: 100%;
+        padding-left: 15px;
+        padding-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .bmi-second {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .bg-bmi {
+        height: 850px;
+    }
+
+    .form {
+        font-size: .95rem;
+        padding: 15px 5px;
+
+    }
+
+    .bmi-center-align {
+        padding-left: 5px;
+        width: 95%;
+    }
+
+    .input-select-container {
+        display: grid;
+        grid-template-columns: repeat(2, 190px);
+        grid-template-rows: repeat(3, 50px);
+        gap: 15px;
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .team-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .team-row-first,
+    .team-row-second {
+        width: 95%;
+        height: 650px;
+        padding-bottom: 20px;
+
+    }
+
+    .dot-hide {
+        display: inline;
+    }
+
+    .letter-hide {
+        display: none;
+    }
+
+    .team-hide {
+        display: none;
+    }
+
+    .team-second,
+    .team-third,
+    .team-fifth,
+    .team-sixth {
+        width: 95%;
+        height: 90%;
+    }
+
+    .team-row-container {
+        gap: 15px;
+    }
+
+    .unique-first {
+        flex-direction: column-reverse;
+        padding: 20px 8px;
+    }
+
+    .unique-second {
+        flex-direction: column;
+        padding: 20px 8px;
+    }
+
+    .unique-first-item {
+        width: 90%;
+        padding-left: 10px;
+    }
+
+    .unique-second-item {
+        width: 90%;
+        padding-left: 10px;
+    }
+
+    .unique-third-item {
+        width: 90%;
+        padding-left: 10px;
+    }
+
+    .unique-fourth-item {
+        width: 90%;
+        padding-left: 10px;
+    }
+
+    .unique-img-item {
+        width: 90%;
+    }
+
+    .unique-flex-container {
+        padding: 5px 10px 5px 10px;
+    }
+
+    .unique-btn {
+        padding: 10px 30px;
+    }
+
+    .footer-first-flex {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .footer-second-flex {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0 0 30px 0;
+    }
+
+    .footer-first {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .footer-second {
+        width: 100%;
+    }
+
+    .footer-title {
+        margin-left: 10px;
+    }
+
+    .footer-primary-description {
+        margin-left: 10px;
+    }
+
+
+
 }
 
 /* medium device */
@@ -302,27 +1143,207 @@ main{
     .navbar {
         margin: 0 15px;
     }
-    .banner{
+
+    .banner {
         flex-direction: column;
         margin: 0 15px;
         align-items: center;
     }
-    .play{
+
+    .play {
         display: none;
     }
-    .habits-container{
+
+    .habits-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
-    .habits-items-container{
+
+    .habits-items-container {
         padding-top: 40px;
         margin-left: 65px;
     }
-    .habits-margin-top{
+
+    .habits-margin-top {
         margin-left: 50px;
         margin-right: 40px;
     }
-    
-    
+
+    .run-container {
+        height: 400px;
+        margin-right: 30px;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .run-item {
+        width: 50%;
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .run-first {
+        width: 100%;
+        height: 325px;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .run-img {
+        width: 255px;
+        height: 320px;
+    }
+
+    .run-title {
+        font-size: 2.5rem;
+        margin-top: 15px;
+    }
+
+    .run-btn {
+        margin-top: 25px;
+        width: 290px;
+        padding: 15px 45px;
+    }
+
+    .run-img {
+        object-fit: none;
+        object-position: 66% 30%;
+    }
+
+    .train-first {
+        width: 32%;
+    }
+
+    .train-second {
+        width: 38%;
+    }
+
+    .train-third {
+        width: 30%;
+    }
+
+    .train-fourth {
+        width: 40%;
+    }
+
+    .train-fifth {
+        width: 30%;
+    }
+
+    .train-sixth {
+        width: 30%;
+    }
+
+    .row-first,
+    .row-second {
+        height: 250px;
+    }
+
+    .train-first,
+    .train-second,
+    .train-third,
+    .train-fourth,
+    .train-fifth,
+    .train-sixth {
+        height: 100%;
+        background-size: none;
+        background-position: 60% 30%;
+    }
+
+    .train-text-left {
+        width: 95%;
+    }
+
+    .bmi-center-align {
+        padding-left: 15px;
+        width: 80%;
+    }
+
+    .bmi-chart-calculate {
+        flex-direction: column;
+    }
+
+    .bg-bmi {
+        height: 850px;
+    }
+
+    .bmi-first {
+        width: 100%;
+        padding-left: 15px;
+        padding-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .bmi-second {
+        width: 95%;
+        padding-left: 15px;
+        padding-right: 5px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .dot-hide {
+        display: inline;
+    }
+
+    .letter-hide {
+        display: none;
+
+    }
+
+    .team-row-container {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 25px;
+        padding-right: 25px;
+    }
+
+    .team-fourth {
+        background-size: none;
+        background-position: 60% 30%;
+    }
+
+    .unique-first {
+        padding: 20px 15px;
+    }
+
+    .unique-second {
+        padding: 20px 15px;
+    }
+
+    .unique-flex-container {
+        padding: 5px 10px 5px 15px;
+    }
+
+    .unique-fourth-item {
+        padding-right: 10px;
+    }
+
+    .unique-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-first-flex {
+        flex-direction: column;
+    }
+
+    .footer-first {
+        width: 70%;
+        padding-left: 5px;
+    }
+
+    .footer-second {
+        width: 100%;
+    }
+
+    .footer-second-flex {
+        padding: 0 0 30px 0;
+    }
+
+
 }
